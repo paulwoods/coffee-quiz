@@ -1,42 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [
-`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Coffee Personality Quiz
+
+A fun, interactive personality quiz that recommends coffee drinks based on your answers. Built for Basecamp Coffee's
+loyalty program revamp, this application helps users discover their "coffee personality" through a series of playful
+questions.
+
+## Features
+
+- **Personalized Recommendations:** Maps your answers to one of four personalities:
+    - **Sweet Enthusiast** (Caramel Latte)
+    - **Night Owl** (Red Eye)
+    - **Artisan Snob** (Pour-Over, Single Origin)
+    - **Practical Pragmatist** (Large Drip)
+- **Detailed Results:** Provides a percentage breakdown of all personality types.
+- **Modern UI:** Built with a playful and colorful style, featuring bright gradients and emoji-rich interfaces.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js installed on your machine.
+- npm, yarn, pnpm, or bun.
+
+### Installation
+
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Local Development
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Inspiration & Acknowledgments
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically
-optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was built as part of the learning journey from **[Claude Code for Everyone](https://ccforeveryone.com/)**.
 
-## Learn More
+### About Claude Code for Everyone
 
-To learn more about Next.js, take a look at the following resources:
+[ccforeveryone.com](https://ccforeveryone.com/) is a free, interactive course designed for non-technical people to learn
+AI by doing. Taught entirely inside **Claude Code**, the course guides users through real-world file operations,
+parallel agent workflows, and "vibe coding" (building apps by describing them). It's an excellent resource for anyone
+looking to use AI effectively for real work without needing prior coding experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions
-are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use
-the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for
-more details.
+---
+Built with [Next.js](https://nextjs.org).
